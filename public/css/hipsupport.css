@@ -1,0 +1,49 @@
+/* 
+Plugin Name: HipSupport
+Plugin URI: http://www.adamstrawson.com/HipSupport
+Description: HipChat Support on your site!
+Version: 0.1
+Author: Adam Strawson 
+Author URI: http://www.adamstrawson.com
+License: GPL2 
+*/
+
+#hipsupport-container { 
+	position: fixed;
+	bottom: 0;
+	right: 20px;
+	z-index: 9999;
+	background-color: #313949;
+	width: 300px;
+	min-height: 35px;
+	border-radius: 6px 6px 0 0;
+	color: #fff;
+}
+
+.hipsupport-toggle {
+	padding: 5px 5px 5px 10px;
+}
+
+.hipsupport-content {
+	display: none;
+	height: 240px;
+	background-color: white;
+	border: 1px solid #313949;
+}
+
+.hipsupport-wait img {
+	margin: 50px 0px 0px 115px;
+}
+
+.hipsupport-wait span {
+	color: #A6A6A6;
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+	font-style: italic;s
+}
+
+.hipsupport-error {
+	color: #CF2965;
+	padding: 20px;
+}
